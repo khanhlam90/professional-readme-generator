@@ -42,6 +42,6 @@ Please reach me using:
 
 <a href = 'mailto: [ Placeholder - My Email ]'> My Email </a>
 
-[My Github Account] (https://github.com/ [ Placeholder - My Github Account ] )
+[My Github Account](https://github.com/ [ Placeholder - My Github Account ] )
 
 `

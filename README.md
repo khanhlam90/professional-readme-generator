@@ -39,4 +39,4 @@ Please reach me using:
 
 <a href = "mailto:khanhlam1990@yahoo.com"> My Email </a>
 
-[My Github Account] (https://github.com/khanhlam90)
+[My Github Account](https://github.com/khanhlam90)
