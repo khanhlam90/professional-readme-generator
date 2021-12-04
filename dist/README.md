@@ -1,12 +1,12 @@
 
-# Password Generator
+# Demonstration Title
 
     
-![Github License](https://img.shields.io/static/v1?label=License&message=Apache-License-2.0&color=blue&style=for-the-badge)
+![Github License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
 
 ## Description
 
-To help users to easily generate random passwords based on the desired criteria
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
 ## Table of Contents
 
@@ -19,30 +19,30 @@ To help users to easily generate random passwords based on the desired criteria
 
 ## Installation
 
-Simply download the code and open the index.html file, and follow the prompts when running the application
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
 ## Usage 
 
-This is an example of usage
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
 ## License
 
-This project is using the Apache-License-2.0 license.
+This project is using the MIT license.
 
 ## Contributing
 
-This is an example of contributing
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
 ## Tests
 
-This is an example of test instructions
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
 ## Questions
 Please reach me using:
 
-<a href = 'mailto:sampleemail@abc.com'> My Email</a>
+<a href = 'mailto:randomuseremail@gmail.com'> My Email</a>
 
-[My Github Account](https://github.com/someUserGithub)
+[My Github Account](https://github.com/someusersgithub)
 
 
     

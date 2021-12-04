@@ -1,5 +1,7 @@
 # Professional README.MD Generator
 
+![Github License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
+
 ## Description
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
 
@@ -15,11 +17,12 @@ This project creates a command-line application that dynamically generates a pro
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Links](#links)
 
 ## Installation
 
 To use this application, please follow the following steps:
-- Clone the repository
+- Clone the repository using SSH - 'git clone git@github.com:khanhlam90/professional-readme-generator.git'
 - Run npm to install the inquirer dependencies - 'npm install inquirer'
 
 ## Usage 
@@ -51,3 +54,9 @@ Please reach me using:
 <a href = "mailto:khanhlam1990@yahoo.com"> My Email </a>
 
 [My Github Account](https://github.com/khanhlam90)
+
+## Project Links:
+* [Demostration Video](./assets/video/readme-demonstration)
+* [Sample README.md](./dist/README.md)
+* [Github Repository](#https://github.com/khanhlam90/professional-readme-generator.git)
+
