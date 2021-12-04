@@ -20,6 +20,7 @@
 ## Usage 
 
 (texts)
+![alt text](assets/images/screenshot.png)
 
 ## License
 

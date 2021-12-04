@@ -1,12 +1,12 @@
 
-# PASSWORD GEN
+# Password Generator
 
     
-![Github License](https://img.shields.io/static/v1?label=License&message=GNU GPLv3&color=blue&style=for-the-badge)
+![Github License](https://img.shields.io/static/v1?label=License&message=Apache-License-2.0&color=blue&style=for-the-badge)
 
 ## Description
 
-Description
+To help users to easily generate random passwords based on the desired criteria
 
 ## Table of Contents
 
@@ -19,30 +19,30 @@ Description
 
 ## Installation
 
-Installation
+Simply download the code and open the index.html file, and follow the prompts when running the application
 
 ## Usage 
 
-Usage
+This is an example of usage
 
 ## License
 
-This project is using the GNU GPLv3 license.
+This project is using the Apache-License-2.0 license.
 
 ## Contributing
 
-Contributing
+This is an example of contributing
 
 ## Tests
 
-Instructions
+This is an example of test instructions
 
 ## Questions
 Please reach me using:
 
-<a href = 'mailto:Email'> My Email</a>
+<a href = 'mailto:sampleemail@abc.com'> My Email</a>
 
-[My Github Account](https://github.com/Github)
+[My Github Account](https://github.com/someUserGithub)
 
 
     

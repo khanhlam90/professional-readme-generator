@@ -79,7 +79,7 @@ Begin "Project Description"
             type: 'list',
             name: 'license',
             message: 'Which license should your project have? (Select one of the below):',
-            choices: ['MIT', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
+            choices: ['MIT', 'GNU-GPLv3', 'GNU-AGPLv3', 'GNU-LGPLv3', 'Mozilla-Public-License-2.0', 'Apache-License-2.0', 'Boost-Software-License-1.0', 'The-Unlicense'],
         },
         {
             type: 'input',
