@@ -36,7 +36,7 @@ After the installation, please follow:
 ![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration-0.png)
 - Screenshot of README.md output - viewed in VS Code:
 ![Screenshot of README.md output](./assets/images/readme-demonstration-1.png)
-- Screenshot of README.md - viewed in Github :
+- Screenshot of README.md output - viewed in Github :
 ![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration-2.png)
 
 - [Link to the video demonstration of how to run the application](https://drive.google.com/file/d/1jTTzYo8H0t_drwk09x05Fwwr0gnyKCCr/view?usp=sharing)
