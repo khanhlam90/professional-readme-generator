@@ -32,9 +32,14 @@ After the installation, please follow:
 - At the end of the prompts, a successful message will appear
 - Navigate to root directory and access into sub-directory named 'dist' - your README.md file is placed in there.
 - Keep in mind that users always have to preview the just-created version of the file for correction, such as spellings, grammars, details, etc.
+- Screenshot of Command Line Demonstration:
+![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration-0.png)
+- Screenshot of README.md output - viewed in VS Code:
+![Screenshot of README.md output](./assets/images/readme-demonstration-1.png)
+- Screenshot of README.md - viewed in Github :
+![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration-2.png)
 
-![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration.png)
-![Link to the demonstration](./assets/video/readme-demonstration.mov)
+- [Link to the video demonstration of how to run the application](https://drive.google.com/file/d/1jTTzYo8H0t_drwk09x05Fwwr0gnyKCCr/view?usp=sharing)
 
 ## License
 
@@ -57,7 +62,7 @@ Please reach me using:
 [My Github Account](https://github.com/khanhlam90)
 
 ## Project Links:
-* [Demostration Video](./assets/video/readme-demonstration.mov)
+* [Demostration Video](https://drive.google.com/file/d/1jTTzYo8H0t_drwk09x05Fwwr0gnyKCCr/view?usp=sharing)
 * [Sample README.md](./dist/README.md)
-* [Github Repository](#https://github.com/khanhlam90/professional-readme-generator.git)
+* [Github Repository](https://github.com/khanhlam90/professional-readme-generator.git)
 
