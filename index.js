@@ -1,13 +1,15 @@
-// TODO: Include packages needed for this application
+const generatePage = require("./src/page-template.js");
+const { writeFile } = require ("./utils/generateMarkdown.js");
+const { promptUser, promptReadme } = require ("./src/questions.js");
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+promptUser ()
+.then (promptReadme)
+.then (readmeData => {
+    return generatePage(readmeData);
+})
+.then (insertDataToMd => {
+    return writeFile(insertDataToMd);
+})
+.catch ( err => {
+    console.log(err);
+});

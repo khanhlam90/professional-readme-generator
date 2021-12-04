@@ -1,11 +1,26 @@
-`
-# [ Placeholder - Your Project Title ]
+// generate the readme body details
+const generateReadme = projectArr => {
+    return `
+    ${projectArr.map (
+        ({
+            title,
+            description,
+            installation,
+            usage,
+            license,
+            contributing,
+            test,
+            questionEmail,
+            questionGithub,
+        }) => {
+            return `
+# ${title}
 
-[ Placeholder - license badge ]
+![Github License](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
 
 ## Description
 
-[ Placeholder - Description details go here ]
+${description}
 
 ## Table of Contents
 
@@ -18,30 +33,40 @@
 
 ## Installation
 
-[ Placeholder - installation ]
+${installation}
 
 ## Usage 
 
-[ Placeholder - usage ]
+${usage}
 
 ## License
 
-This project is using the [ Placeholder - License ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath) ] license.
+This project is using the ${license} license.
 
 ## Contributing
 
-[ Placeholder - Contributing ]
+${contributing}
 
 ## Tests
 
-[ Placeholder - Test ]
+${test}
 
 ## Questions
 
 Please reach me using:
 
-<a href = 'mailto: [ Placeholder - My Email ]'> My Email </a>
+<a href = 'mailto:${questionEmail}'> My Email </a>
 
-[My Github Account](https://github.com/ [ Placeholder - My Github Account ] )
+[My Github Account](https://github.com/${questionGithub})
 
-`
+`;
+}
+)}`;
+};
+
+//export function to generate the readme body details
+module.exports = () => {
+    return `
+    ${generateReadme(project)}
+    `;
+};
