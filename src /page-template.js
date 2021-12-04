@@ -1,18 +1,17 @@
 // generate the readme body details
-const generateProject = projectArr => {
-    return `
-        ${projectArr.map(
-        ({
-            description,
-            installation,
-            usage,
-            license,
-            contributing,
-            test,
-            questionEmail,
-            questionGithub,
-        }) => {
-            return `
+const generateProject = (projectArr) => {
+return `
+${projectArr.map(
+({description,
+installation,
+usage,
+license,
+contributing,
+test,
+questionEmail,
+questionGithub,
+}) => {
+return `
 ![Github License](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
 
 ## Description
@@ -62,7 +61,7 @@ Please reach me using:
 };
 
 // export function to generate the readme body details
-module.exports = templateData => {
+module.exports = (templateData) => {
 //destructure
 const { project, ...header } = templateData;
 //console.log("it works! this is template data:");
