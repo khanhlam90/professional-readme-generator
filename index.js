@@ -1,15 +1,15 @@
-const generatePage = require("./src/page-template.js");
+const generatePage = require("./src-1/page-template.js");
+const { promptUser, promptReadme } = require ("./src-1/questions.js");
 const { writeFile } = require ("./utils/generateMarkdown.js");
-const { promptUser, promptReadme } = require ("./src/questions.js");
 
-promptUser ()
-.then (promptReadme)
-.then (readmeData => {
+promptUser()
+.then(promptReadme)
+.then(readmeData => {
     return generatePage(readmeData);
 })
-.then (insertDataToMd => {
+.then(insertDataToMd => {
     return writeFile(insertDataToMd);
 })
-.catch ( err => {
+.catch( err => {
     console.log(err);
 });

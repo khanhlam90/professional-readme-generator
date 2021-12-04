@@ -1,8 +1,9 @@
 const inquirer = require('inquirer');
 
+
 //prompt user's input for projet title
 const promptUser = () => {
-    return inquirer.prompt([
+    return inquirer.prompt ([
         {
             type: 'input',
             name: 'title',
@@ -32,6 +33,7 @@ Begin "Project Description"
     if (!readmeData.project) {
         readmeData.project = [];
     }
+
     return inquirer
     .prompt ([
         {
@@ -132,7 +134,7 @@ Begin "Project Description"
             } 
         },
     ])
-    .then((projectData) => {
+    .then (projectData => {
         readmeData.project.push(projectData);
         if (projectData) {
             return readmeData;
