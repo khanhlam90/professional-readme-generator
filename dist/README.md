@@ -1,14 +1,12 @@
 
-    # PW GEN
-    
-    
-# undefined
+# PW GEN
 
+    
 ![Github License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
 
 ## Description
 
-description
+Description
 
 ## Table of Contents
 
@@ -21,11 +19,11 @@ description
 
 ## Installation
 
-installation
+Installation
 
 ## Usage 
 
-usage
+Usage
 
 ## License
 
@@ -33,18 +31,18 @@ This project is using the MIT license.
 
 ## Contributing
 
-contributing
+Contributing
 
 ## Tests
 
-test
+Tests
 
 ## Questions
 Please reach me using:
 
-<a href = 'mailto:email'> My Email </a>
+<a href = 'mailto:Email'> My Email: Email</a>
 
-[My Github Account](https://github.com/github)
+[My Github Account](https://github.com/Github)
 
 
     

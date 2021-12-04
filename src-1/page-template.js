@@ -3,7 +3,6 @@ const generateProject = projectArr => {
     return `
     ${projectArr.map (
         ({
-            title,
             description,
             installation,
             usage,
@@ -14,8 +13,6 @@ const generateProject = projectArr => {
             questionGithub,
         }) => {
             return `
-# ${title}
-
 ![Github License](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
 
 ## Description
@@ -54,7 +51,7 @@ ${test}
 ## Questions
 Please reach me using:
 
-<a href = 'mailto:${questionEmail}'> My Email </a>
+<a href = 'mailto:${questionEmail}'> My Email: ${questionEmail}</a>
 
 [My Github Account](https://github.com/${questionGithub})
 
@@ -65,14 +62,12 @@ Please reach me using:
 
 //export function to generate the readme body details
 module.exports = (templateData) => {
-
     //destructure the template
     const { project, ...header } = templateData;
-    console.log("it works, see data below");
-    console.log(templateData);
-
-    return `
-    # ${header.title}
-    ${generateProject(project)}
+    //console.log("it works, see data below");
+    //console.log(templateData);
+return `
+# ${header.title}
+${generateProject(project)}
     `;
 };
