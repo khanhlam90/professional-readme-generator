@@ -33,7 +33,8 @@ After the installation, please follow:
 - Navigate to root directory and access into sub-directory named 'dist' - your README.md file is placed in there.
 - Keep in mind that users always have to preview the just-created version of the file for correction, such as spellings, grammars, details, etc.
 
-![Link to the demonstrations](./assets/video/readme-demonstration)
+![Screenshot of Command Line Demonstration](./assets/images/readme-demonstration.png)
+![Link to the demonstration](./assets/video/readme-demonstration.mov)
 
 ## License
 
@@ -56,7 +57,7 @@ Please reach me using:
 [My Github Account](https://github.com/khanhlam90)
 
 ## Project Links:
-* [Demostration Video](./assets/video/readme-demonstration)
+* [Demostration Video](./assets/video/readme-demonstration.mov)
 * [Sample README.md](./dist/README.md)
 * [Github Repository](#https://github.com/khanhlam90/professional-readme-generator.git)
 
