@@ -10,6 +10,9 @@ promptUser()
 .then(insertDataToMd => {
     return writeFile(insertDataToMd);
 })
+.then(writeFileResponse => {
+    console.log(writeFileResponse);
+})
 .catch( err => {
     console.log(err);
 });

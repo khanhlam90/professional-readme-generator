@@ -51,7 +51,7 @@ ${test}
 ## Questions
 Please reach me using:
 
-<a href = 'mailto:${questionEmail}'> My Email: ${questionEmail}</a>
+<a href = 'mailto:${questionEmail}'> My Email</a>
 
 [My Github Account](https://github.com/${questionGithub})
 

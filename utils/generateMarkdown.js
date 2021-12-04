@@ -13,7 +13,7 @@ const writeFile = fileContent => {
       // if everything went well, resolve the Promise and send the successful data to the `.then()` method
       resolve({
         ok: true,
-        message: 'File README.md created! Please check directory dist'
+        message: 'File README.md created! Please check your file in directory dist'
       });
     });
   });
